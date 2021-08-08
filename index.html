@@ -1,5 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.7;}
+
+#myImg2 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+#myImg3 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+#myImg4 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg4:hover {opacity: 0.7;}
+
+#myImg5 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg5:hover {opacity: 0.7;}
+
+#myImg6 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg6:hover {opacity: 0.7;}
+
+#myImg7 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg7:hover {opacity: 0.7;}
+
+#myImg8 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg8:hover {opacity: 0.7;}
+
+#myImg9 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg9:hover {opacity: 0.7;}
+
+#myImg10 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg10:hover {opacity: 0.7;}
+
+#myImg11 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg11:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(143, 143, 143, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+</style>
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
@@ -53,20 +230,20 @@
             </p>
             <p class="mt-4 text-white text-mono">
               In my free time i make synthwave music, read or write some books,
-              make some episodes for my philosophic podcast, play football, do some 
-              calisthenics and practice ethical hacking! 
+              make some episodes for my philosophic podcast, play football, do some
+              calisthenics and practice ethical hacking!
             </p>
-            <p class="mt-4 text-white text-mono"> You can listen to my podcast here:             
+            <p class="mt-4 text-white text-mono"> You can listen to my podcast here:
             <a href="https://open.spotify.com/show/71fIJW5FELM2IS53qkkLAz" target="_blank">
             <span class="fab fa-spotify"></span>
             </a>
             </p>
-            <p class="mt-4 text-white text-mono"> You can listen to my instrumental music here:             
+            <p class="mt-4 text-white text-mono"> You can listen to my instrumental music here:
             <a href="https://open.spotify.com/artist/3fU9dQUG0Q9aF8oAzvrMIG?si=z06GJm4fRCmif7cSaSGCNQ&nd=1" target="_blank">
             <span class="fab fa-spotify"></span>
             </a>
             </p>
-                        <p class="mt-4 text-white text-mono"> Don't forget to read my articles here:             
+                        <p class="mt-4 text-white text-mono"> Don't forget to read my articles here:
             <a href="https://jorgeeldis.medium.com" target="_blank">
             <span class="fab fa-medium"></span>
             </a>
@@ -75,7 +252,7 @@
           <div class="col-xl-6">
             <img src="pc.gif" width="100%" />
             <p></p>
-            
+
             <a href="https://twitter.com/jorgeeldis" class="btn btn-dark " target="_blank">
             <span class="v-icon fab fa-twitter theme--light icon-inactive"></span>
             </a>
@@ -88,7 +265,7 @@
             <a href="https://github.com/jorgeeldis" class="btn btn-dark " target="_blank">
             <span class="fab fa-github"></span>
             </a>
-            <a href="https://www.linkedin.com/in/jorgeeldis/" class="btn btn-dark " target="_blank"> 
+            <a href="https://www.linkedin.com/in/jorgeeldis/" class="btn btn-dark " target="_blank">
             <span class="fab fa-linkedin"></span>
             </a>
             <a href="https://www.tiktok.com/@jorgeeldis" class="btn btn-dark " target="_blank">
@@ -110,7 +287,7 @@
             </blockquote>
             <div class="row">
               <div class="col-xl-6">
-                
+
                 <hr>
                 <h1 class="display-4"><a href="https://synthstudy.surge.sh">SynthStudy</a></h1>
                 <p class="mt-5 text-white text-mono">
@@ -121,7 +298,6 @@
                 </p>
               </div>
                 <div class="col-xl-6">
-                
                <hr>
                 <img
                   src="SynthStudy.png"
@@ -130,6 +306,14 @@
                   width="600"
                   height="400"
                 />
+
+                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+
                 </div>
                               <div class="col-xl-6">
                <hr>
@@ -143,13 +327,19 @@
               </div>
                 <div class="col-xl-6">
                <hr>
-                <img
+                <img id="myImg1"
                   src="stoacalc.png"
                   class="img-fluid"
-                  alt="Responsive image"
+                  alt="Stoa Calculator"
                   width="600"
                   height="400"
                 />
+
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
                                             <div class="col-xl-6">
                <hr>
@@ -164,13 +354,20 @@
               </div>
                 <div class="col-xl-6">
                <hr>
-                <img
+                <img id="myImg2"
                   src="robostoa.png"
                   class="img-fluid"
-                  alt="Responsive image"
+                  alt="RoboStoa"
                   width="600"
                   height="400"
                 />
+
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
                                             <div class="col-xl-6">
                <hr>
@@ -184,13 +381,19 @@
               </div>
                 <div class="col-xl-6">
                <hr>
-                <img
+                <img id="myImg3"
                   src="stoacommunity.png"
                   class="img-fluid"
-                  alt="Responsive image"
+                  alt="Stoa Community"
                   width="600"
                   height="400"
                 />
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
                                             <div class="col-xl-6">
                <hr>
@@ -204,13 +407,46 @@
               </div>
                 <div class="col-xl-6">
                <hr>
-                <img
+                <img id="myImg4"
                   src="whitecode.gif"
                   class="img-fluid"
-                  alt="Responsive image"
+                  alt="WhiteCode"
                   width="600"
                   height="400"
                 />
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
+              </div>
+                                          <div class="col-xl-6">
+               <hr>
+                <h1 class="display-4"><a href="#" target="_blank">MathManiac</a></h1>
+                <p class="mt-5 text-white text-mono">
+                  MathManiac is a simple arithmetic game where you can put your knowledge to the maximum,
+                  this game helps you to streamline your mind, increase your concentration and
+                  at the same time practice your mathematical knowledge, complete information is requested as an introduction
+                  and at the end a complete report is given, so you can improve and get better!
+                  Click the title for more information!
+                </p>
+              </div>
+                <div class="col-xl-6">
+               <hr>
+                <img id="myImg5"
+                  src="MathManiac.png"
+                  class="img-fluid"
+                  alt="MathManiac"
+                  width="600"
+                  height="400"
+                />
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
             </div>
           </div>
@@ -242,15 +478,21 @@
                 </p>
               </div>
               <div class="col-xl-6">
-      
+
                <hr>
-                <img
-                  src="electronics.gif"
+                <img id="myImg6"
+                  src="electronics.png"
                   class="img-fluid"
-                  alt="Responsive image"
-                  width="506"
-                  height="380"
+                  alt="Working on an Audio Amplifier"
+                  width="600"
+                  height="400"
                 />
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
                             <div class="col-xl-6">
                <hr>
@@ -264,15 +506,21 @@
                 </p>
               </div>
               <div class="col-xl-6">
-      
+
                <hr>
-                <img
+                <img id="myImg7"
                   src="developer.jpeg"
                   class="img-fluid"
-                  alt="Responsive image"
-                  width="506"
-                  height="380"
+                  alt="Ethical Hacking Station"
+                  width="600"
+                  height="400"
                 />
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
                             <div class="col-xl-6">
                <hr>
@@ -287,15 +535,21 @@
                 </p>
               </div>
               <div class="col-xl-6">
-      
+
                <hr>
-                <img
-                  src="stoacommunity.gif"
+                <img id="myImg8"
+                  src="stoacommunity.png"
                   class="img-fluid"
-                  alt="Responsive image"
-                  width="506"
-                  height="380"
+                  alt="Stoa Community"
+                  width="600"
+                  height="400"
                 />
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
                             <div class="col-xl-6">
                <hr>
@@ -310,15 +564,21 @@
                 </p>
               </div>
               <div class="col-xl-6">
-      
+
                <hr>
-                <img
-                  src="2books.png"
+                <img id="myImg9"
+                  src="author.png"
                   class="img-fluid"
-                  alt="Responsive image"
-                  width="506"
-                  height="380"
+                  alt="My first 2 books available on every ebook shop"
+                  width="600"
+                  height="400"
                 />
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
                             <div class="col-xl-6">
                <hr>
@@ -333,21 +593,27 @@
                 </p>
               </div>
               <div class="col-xl-6">
-      
+
                <hr>
-                <img
-                  src="research.gif"
+                <img id="myImg10"
+                  src="research.png"
                   class="img-fluid"
-                  alt="Responsive image"
-                  width="506"
-                  height="380"
+                  alt="All my projects, research, papers and books available on Academia.edu"
+                  width="600"
+                  height="400"
                 />
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
                             <div class="col-xl-6">
                <hr>
                 <h1 class="display-4"><a href="https://stoacommunity.com/courses" target="_blank">Professor</a></h1>
                 <p class="mt-5 text-white text-mono">
-                  I teach many courses on Stoa Community & 
+                  I teach many courses on Stoa Community &
                   one of my main goals was always to be a professor, where i can teach
                   people my knowledge, right now i'm making courses of Ethical
                   Hacking where i teach people the basics of this amazing branch
@@ -356,15 +622,21 @@
                 </p>
               </div>
               <div class="col-xl-6">
-      
+
                <hr>
-                <img
-                  src="external-content.duckduckgo.com.gif"
+                <img id="myImg11"
+                  src="professor.png"
                   class="img-fluid"
-                  alt="Responsive image"
-                  width="506"
-                  height="380"
+                  alt="All my free courses on stoacommunity.com"
+                  width="600"
+                  height="400"
                 />
+                                <!-- The Modal -->
+                <div id="myModal" class="modal">
+                  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                  <img class="modal-content" id="img01">
+                  <div id="caption"></div>
+                </div>
               </div>
               </div>
             </div>
@@ -372,6 +644,142 @@
         </div>
       </div>
     </div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg1');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg2');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg3');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg5');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg6');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg7');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg8');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg9');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg10');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+var img = document.getElementById('myImg11');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+</script>
+
+
   </body>
 
   <footer>
