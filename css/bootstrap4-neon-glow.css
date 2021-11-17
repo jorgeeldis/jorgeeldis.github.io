@@ -2256,23 +2256,23 @@ fieldset:disabled a.btn {
   pointer-events: none; }
 
 .btn-primary {
-  color: #fff;
-  background-color: #fff;
-  border-color: #fff; }
+  color: rgb(0, 225, 255);
+  background-color: rgb(0, 255, 255);
+  border-color: rgb(0, 255, 255); }
   .btn-primary:hover {
-    color: #fff;
+    color: rgb(0, 225, 255);
     background-color: #572cd9;
     border-color: #5126d2; }
   .btn-primary:focus, .btn-primary.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(134, 103, 228, 0.5);
             box-shadow: 0 0 0 0.2rem rgba(134, 103, 228, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
-    color: #fff;
-    background-color: #fff;
-    border-color: #fff; }
+    color: rgb(0, 225, 255);
+    background-color: rgb(0, 225, 255);
+    border-color: rgb(0, 225, 255); }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
   .show > .btn-primary.dropdown-toggle {
-    color: #fff;
+    color: rgb(0, 225, 255);
     background-color: #5126d2;
     border-color: #4d24c8; }
     .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
