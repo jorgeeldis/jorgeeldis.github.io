@@ -4771,7 +4771,7 @@ input[type=submit].btn-block {
 }
 
 .nav-link.disabled {
-	color: #1d1e2f;
+	color: #ffffff;
 	pointer-events: none;
 	cursor: default
 }
@@ -4792,20 +4792,20 @@ input[type=submit].btn-block {
 
 .nav-tabs .nav-link:focus,
 .nav-tabs .nav-link:hover {
-	border-color: #282a38 #282a38 #151623
+	border-color: #ffffff #ffffff #ffffff
 }
 
 .nav-tabs .nav-link.disabled {
-	color: #1d1e2f;
+	color: #ffffff;
 	background-color: transparent;
 	border-color: transparent
 }
 
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-	color: #e4e2ff;
-	background-color: #000;
-	border-color: #151623
+	color: #ffffff;
+	background-color: rgb(255, 255, 255);
+	border-color: #f0f0f0
 }
 
 .nav-tabs .dropdown-menu {
@@ -4820,7 +4820,7 @@ input[type=submit].btn-block {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-	color: #32334a;
+	color: #ffffff;
 	background-color: #fff
 }
 
@@ -5248,32 +5248,32 @@ input[type=submit].btn-block {
 }
 
 .navbar-light .navbar-brand {
-	color: rgba(0, 0, 0, .9)
+	color: rgba(255, 255, 255, 0.9)
 }
 
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-	color: rgba(0, 0, 0, .9)
+	color: rgba(255, 255, 255, 0.9)
 }
 
 .navbar-light .navbar-nav .nav-link {
-	color: rgba(0, 0, 0, .5)
+	color: rgba(255, 255, 255, 0.5)
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-	color: rgba(0, 0, 0, .7)
+	color: rgba(255, 255, 255, 0.7)
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
-	color: rgba(0, 0, 0, .3)
+	color: rgba(255, 255, 255, 0.3)
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-	color: rgba(0, 0, 0, .9)
+	color: rgba(255, 255, 255, 0.9)
 }
 
 .navbar-light .navbar-toggler {
