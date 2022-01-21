@@ -74,6 +74,16 @@ img.onclick = function(){
     captionText.innerHTML = this.alt;
 }
 
+var img = document.getElementById('myImg4');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
 
 var img = document.getElementById('myImg6');
 var modalImg = document.getElementById("img01");
@@ -196,16 +206,6 @@ img.onclick = function(){
 }
 
 var img = document.getElementById('myImg18');
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    modalImg.alt = this.alt;
-    captionText.innerHTML = this.alt;
-}
-
-var img = document.getElementById('myImg19');
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 img.onclick = function(){
