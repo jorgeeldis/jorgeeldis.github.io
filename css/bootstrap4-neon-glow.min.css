@@ -12382,13 +12382,6 @@ hr {
 
 #myImg4:hover {opacity: 0.7;}
 
-#myImg5 {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-#myImg5:hover {opacity: 0.7;}
 
 #myImg6 {
     border-radius: 5px;
@@ -12478,6 +12471,22 @@ hr {
 }
 
 #myImg16:hover {opacity: 0.7;}
+
+#myImg17 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg17:hover {opacity: 0.7;}
+
+#myImg18 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg18:hover {opacity: 0.7;}
 
 
 
