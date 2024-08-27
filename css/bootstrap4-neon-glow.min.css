@@ -76,7 +76,8 @@ body {
 	line-height: 1.5;
 	color: #e4e2ff;
 	text-align: left;
-	background-color: #000
+	background-color: #000;
+	overflow: auto;
 }
 
 [tabindex="-1"]:focus {
@@ -12619,13 +12620,8 @@ hr {
     filter: blur(10px)
 }
 
-::-webkit-scrollbar
-{
-  width: 0;
-}
-
 body.modal-open {
-    overflow: hidden;
+    overflow: auto;
 }
 
 img{
